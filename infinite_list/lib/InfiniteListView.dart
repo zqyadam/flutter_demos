@@ -35,17 +35,25 @@ class _InfiniteListViewState extends State<InfiniteListView> {
         }
         return ListTile(title: Text(_words[index]));
       },
-      itemCount: _words.length, separatorBuilder: (BuildContext context, int index) {
-        return Divider(height: 1,);
+      itemCount: _words.length,
+      separatorBuilder: (BuildContext context, int index) {
+        return Divider(
+          height: 1,
+        );
       },
     );
   }
 
   void _retrive_words(count) {
     Future.delayed(Duration(seconds: 2)).then((e) {
-      _words.insertAll(_words.length - 1,
-          generateWordPairs().take(count).map((e) => e.asPascalCase).toList());
-      setState(() {});
+      setState(() {
+        _words.insertAll(
+            _words.length - 1,
+            generateWordPairs()
+                .take(count)
+                .map((e) => e.asPascalCase)
+                .toList());
+      });
     });
   }
 }
