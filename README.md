@@ -6,4 +6,5 @@
 
 - bottom_navigation_bar 底部导航栏切换页面
 - infinite_list 无限滚动列表
+- infinite_grid_view 无限滚动网格视图
 
