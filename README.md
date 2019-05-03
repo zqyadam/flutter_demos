@@ -8,3 +8,4 @@
 - infinite_list 无限滚动列表
 - infinite_grid_view 无限滚动网格视图
 
+- chips  碎片（标签）
