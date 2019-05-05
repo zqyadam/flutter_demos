@@ -4,7 +4,7 @@
 
 ## 清单
 
-- [ ] BottomAppBar_with_FloatingActionButton 带有FloatingActionButton的底部导航栏 
+- [x] BottomAppBar_with_FloatingActionButton 带有FloatingActionButton的底部导航栏 
 - [x] BottomNavigationBar 底部导航栏切换页面
 - [x] infinite_list 无限滚动列表
 - [x] infinite_grid_view 无限滚动网格视图
