@@ -32,3 +32,8 @@
   - [ ] Movable Ball 移动的小球
   - [ ] Scalable Image 缩放的图片
 - [x] CachedNetworkImage 网络图片缓存(cached_network_image_demo)
+
+### Animation
+
+- [ ] ImageScale 图片方法
+- [x] Heartbeat 心跳
