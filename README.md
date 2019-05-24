@@ -35,5 +35,5 @@
 
 ### Animation
 
-- [ ] ImageScale 图片放大
+- [x] Hero Hero动画
 - [x] Heartbeat 心跳
