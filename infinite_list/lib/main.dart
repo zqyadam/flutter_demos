@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:infinite_list/InfiniteListView.dart';
+import 'package:infinite_list/InfiniteListView2.dart';
 
 void main()=>runApp(MyApp());
 

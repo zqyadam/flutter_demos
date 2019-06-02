@@ -11,7 +11,7 @@ class _InfiniteListViewState extends State<InfiniteListView> {
   List _words = <String>[loadingTag];
   @override
   void initState() {
-    // super.initState();
+    super.initState();
     _retrive_words(20);
   }
 
