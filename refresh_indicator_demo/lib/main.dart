@@ -45,11 +45,13 @@ class _HomeState extends State<Home> {
               },
               itemCount: _words.length,
             )
-          : ListView(children: <Widget>[
-              Center(
-                child: Text('还没有数据哦！'),
-              ),
-            ]),
+          : ListView(
+              children: <Widget>[
+                Center(
+                  child: Text('还没有数据哦！'),
+                )
+              ],
+            ),
     );
   }
 
