@@ -33,7 +33,7 @@
   - [x] Movable Ball 移动的小球
   - [ ] Scalable Image 缩放的图片
 - [x] CachedNetworkImage 网络图片缓存(cached_network_image_demo)
-- [ ] RefreshIndicator 下拉刷新
+- [x] RefreshIndicator 下拉刷新
 
 ### Animation
 
